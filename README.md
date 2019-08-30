@@ -10,7 +10,15 @@ Given a [csv](##Howto) import into YNAB what is not present there, eg:
 
 **halp** will suggest the creation of the transaction 1 and 2, giving the opportunity to select a category. 
 
+All transaction created will have a memo "sowhat? #cmdline" so it will be easier to remove or reject the transaction in case of fire.
 
+# Run
+
+Get ynab api token [here](https://api.youneedabudget.com/#getting-started)
+
+`go get -u github.com/xild/halp` or clone.
+
+`YNAB_TOKEN=$TOKEN go run main.go`
 
 ## How to
 
