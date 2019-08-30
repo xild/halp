@@ -28,9 +28,13 @@ Get ynab api token [here](https://api.youneedabudget.com/#getting-started)
  
  
  The csv should be delimited with a semilon `;` and must have the following structure, without a header.
+ 
  1.column - The date in ISO format (e.g. 2016-12-01)
+ 
  2.column -  The Payee name
+ 
  3.column - The category (not used yet)
+ 
  4.column - The transaction amount
  
  |  |  |   |  |
