@@ -2,7 +2,7 @@
 
 #### Interactive command line to import a csv of transaction into YNAB
 
-Given a [csv](https://github.com/xild/halp/blob/master/README.md#how-to) import into YNAB what is not present there, eg:
+Given a [csv](https://github.com/xild/halp/blob/master/README.md#how-to) import it into YNAB what is not present, eg:
 
 **bank** has transaction 1, transaction 2, and transaction 3
 
