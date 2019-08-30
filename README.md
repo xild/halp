@@ -2,7 +2,7 @@
 
 #### Interactive command line to import a csv of transaction into YNAB
 
-Given a [csv](##Howto) import into YNAB what is not present there, eg:
+Given a [csv](https://github.com/xild/halp/blob/master/README.md#how-to) import into YNAB what is not present there, eg:
 
 **bank** has transaction 1, transaction 2, and transaction 3
 
@@ -27,7 +27,7 @@ Get ynab api token [here](https://api.youneedabudget.com/#getting-started)
   - [Export transactions n26](https://support.n26.com/en-eu/fixing-an-issue/payments-and-transfers/how-to-export-a-list-of-my-transactions)
  
  
- The csv should be delimited with a semilon `;` and must have the following structure, without a header.
+ The csv should be delimited with a semilon `;` and must have the following structure, without a header:
  
  1. Column - The date in ISO format (e.g. 2016-12-01)
  
