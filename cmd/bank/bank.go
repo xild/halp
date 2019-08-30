@@ -26,9 +26,6 @@ func New() *CSV {
 }
 
 func (c *CSV) Fetch(filename, sinceDate string) (txs []Transaction, err error) {
-	if filename == "" {
-		filename = "/Users/luisvieira/Desktop/n26-csv-transactions-2.csv"
-	}
 	csvfile, err := os.Open(filename)
 	if err != nil {
 		return
